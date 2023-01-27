@@ -1,0 +1,105 @@
+
+/* / about us section wraper / */
+.about_app_section1 .about_img {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+/* about us section images*/
+.about_app_section1 .about_img img {
+  max-width: 100%;
+}
+
+.about_app_section1 .about_img::before {
+  content: "";
+  position: absolute;
+  left: 38%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  height: 500px;
+  background-color: var(--bg-white);
+  border-radius: 100%;
+  z-index: -1;
+}
+
+.about_app_section1 .about_img .screen_img {
+  margin-left: -135px;
+  margin-top: 110px;
+}
+
+.about_app_section1 .about_text1 .section_title {
+  text-align: left;
+}
+
+.about_app_section1 .about_text1 .section_title h2 {
+  margin-bottom: 15px;
+}
+
+.about_app_section .about_text1 .list {
+  margin-top: 45px;
+  margin-bottom: 45px;
+}
+
+.about_app_section1 .about_text1 .list ul {
+  position: relative;
+}
+
+
+.about_app_section1 .about_text1 .list ul li{
+  /* / font-size: 17px; / */
+  color: var(--dark-purple);
+  font-weight: normal;
+  margin-bottom: 8px;
+}
+
+
+.about_app_section1 .about_img .screen_img img {
+  animation-delay: 3s;
+}
+/* / about us section  statastics nomber / */
+.about_app_section1 .about_text1 .app_statstic1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  margin-top: 40px;
+}
+
+.about_app_section1 .about_text1 .app_statstic1 li {
+  height: 140px;
+
+  width: 248px;
+  background-color: var(--bg-white);
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  border-radius: 12px;
+  padding: 15px 10px;
+  padding-left: 35px;
+  box-shadow: 0px 4px 10px #EDE9FE;
+}
+
+.about_app_section1 .about_text1 .app_statstic1 li .icon {
+  margin-right: 9px;
+}
+
+.about_app_section1 .about_text1 .app_statstic1 li p {
+  margin-bottom: 0;
+  line-height: 1;
+  color: var(--dark-purple);
+}
+
+.about_app_section1 .about_text1 .app_statstic1 li p:first-child {
+  /* / font-size: 40px; / */
+  font-weight: 600;
+  margin-bottom: 3px;
+}
+.about_page_sectino1 img {max-width: 100%;}
+
+.about_page_sectino1{
+
+background: linear-gradient(180deg, #B5C4FF 0%, #F6DAFF 44.58%, #FFEAD2 100%);
+}
+
