@@ -14,7 +14,7 @@ export class AboutComponent implements OnInit {
     mouseDrag: true,
     touchDrag: true,
     pullDrag: true,
-    dots: false,
+    dots: true,
     navSpeed: 300,
     navText: ['', ''],
     margin: 14,

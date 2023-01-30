@@ -219,6 +219,8 @@ img {
   font-weight: 700;
   /* color: var(--dark-purple); */
   color: #28085b;
+  /* text-align: initial; */
+
 }
 
 .section_title h2 span {
@@ -443,6 +445,14 @@ img {
   color: #f6daff;
   padding-left: 5px;
 }
+@media screen and (max-width: 479px) {
+ .coll-4{
+  margin-left: 200px;
+ }
+
+
+}
+
 .Set_Number_4 {
   font-family: "Inter";
   font-style: normal;
@@ -2430,6 +2440,9 @@ header.fixed .navbar {
 
 /* subscription plane css start */
 
+
+/* / subscription plane css start / */
+
 .section-5 {
   margin-top: 5%;
   margin-bottom: 5%;
@@ -2461,7 +2474,8 @@ header.fixed .navbar {
   color: #28085b;
 }
 .card-sub-standard {
-  width:370px !important;
+  height: 550px ;
+  width: 19rem !important;
   background: linear-gradient(
     158.12deg,
     #7a21bd 13.4%,
@@ -2472,9 +2486,8 @@ header.fixed .navbar {
   border-radius: 24px;
 }
 .card-sub-1 {
-  margin-top: 50px;
-  width: 370px !important;
-  height: 550px;
+  margin-top: 20px;
+  width: 19rem !important;
   background: #ffffff;
   border: 1px solid #d3dcff;
   box-shadow: -18px 1px 70px rgba(64, 64, 64, 0.12);
@@ -2532,7 +2545,8 @@ header.fixed .navbar {
 
 .card-web-subs {
   margin-top: 10px;
-  text-align: -webkit-center;
+  display: flex;
+  justify-content: center;
 }
 .table-pd {
   padding: 10px;
@@ -2558,8 +2572,8 @@ header.fixed .navbar {
 .standard-button {
   font-size: 14px;
   width: 232px;
-  /* height: 33px; */
-  margin-top: 2%;
+  /* / height: 33px; / */
+  /* margin-top: 2%; */
   text-transform: uppercase;
   color: black;
   border: none;
@@ -2572,12 +2586,13 @@ header.fixed .navbar {
   width: 100%;
   box-shadow: -4px -4px 13px rgba(64, 64, 64, 0.38);
   border-radius: 67px;
-  /* width: max-content !important; */
+  /* / width: max-content !important; / */
   height: auto;
 }
 .select {
   font-size: 15px;
-  width: 232px;
+  width: 100%;
+  height: auto;
   height: 33px;
   margin-top: 2%;
 
@@ -2651,18 +2666,16 @@ header.fixed .navbar {
 
 @media only screen and (max-width: 600px) {
   .card-sub-1 {
-    /* height: 521px; */
-    width: 19rem !important;
-    height: auto;
+    /* / height: 521px; / */
+    width: 16rem !important;
     background: #ffffff;
     border: 1px solid #d3dcff;
     box-shadow: -18px 1px 70px rgba(64, 64, 64, 0.12);
     border-radius: 24px;
   }
   .card-sub-standard {
-
-    padding: 10px;
-    width: 19rem !important;
+    /* / height: 521px; / */
+    width: 16rem !important;
     background: linear-gradient(
       158.12deg,
       #7a21bd 13.4%,
@@ -2688,8 +2701,6 @@ header.fixed .navbar {
     width: 13rem !important;
     align-items: center;
   }
-
-
 
   .card-subs1 {
     background: linear-gradient(
@@ -2733,7 +2744,7 @@ header.fixed .navbar {
 }
 
 .month {
-  /* width: 156px; */
+  /* / width: 156px; / */
   height: 29px;
 
   font-family: "Inter";
@@ -2793,8 +2804,7 @@ header.fixed .navbar {
   font-weight: 700;
 }
 
-/* subscription plane css end */
-
+/* / subscription plane css end / */
 
 
 

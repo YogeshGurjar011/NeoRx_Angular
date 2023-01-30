@@ -12,7 +12,8 @@ import { WhyNeoRxComponent } from './why-neo-rx/why-neo-rx.component';
 import { UsermanualComponent } from './usermanual/usermanual.component';
 import { SciencebehindComponent } from './sciencebehind/sciencebehind.component';
 import { HelpCenterComponent } from './help-center/help-center.component';
-import { CarouselModule } from "ngx-owl-carousel-o"
+import { CarouselModule } from "ngx-owl-carousel-o";
+import { ContactComponent } from './contact/contact.component'
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,7 +25,8 @@ import { CarouselModule } from "ngx-owl-carousel-o"
     WhyNeoRxComponent,
     UsermanualComponent,
     SciencebehindComponent,
-    HelpCenterComponent
+    HelpCenterComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,

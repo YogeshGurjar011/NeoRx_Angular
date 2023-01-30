@@ -1,5 +1,5 @@
 <!-- Blog-Detail-Section-Start -->
-<section class="row_am blog_list_main">
+<section class="row_am blog_list_main" style="margin-bottom: -6%;">
   <!-- container start -->
   <div class="container">
     <!-- row start -->
@@ -17,7 +17,7 @@
               <span style="background-color: #f6daff">
                 make the world better
               </span>
-              for children with autism
+              for children with autism!
             </h2>
             <p>
               Every child undergoes a unique process of cognitive development.
@@ -38,7 +38,7 @@
               effective in helping children and parents cope with autism and
               learning disabilities. Our therapeutic system is designed to
               assess children’s needs, and to then provide them with the best
-              possible personalized therapy..
+              possible personalized therapy.
             </p>
           </div>
         </div>
@@ -73,25 +73,25 @@
   </div>
 </section> -->
 
-<section>
+<section style="margin-bottom: 4%;">
 
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <img  class="img-fluid aboutourmission" src="../../assets/images/mission.png" alt="">
+        <img class="img-fluid aboutourmission" src="../../assets/images/mission.png" alt="">
       </div>
       <div class="col-lg-3"></div>
       <div class="col-lg-6 text-center">
         <div class="ourmissioncontent">
-        <h2 class="about-head-our-mission">Our Mission</h2>
-        <p class="about-head-our-mission-details">
-          “Transform the quality of life of children who have ASD to improve
-          their physical and mental health with various digital behavioral
-          approaches that are clinically designed by our team of autism
-          experts. The learning-through-play method (digitalizing ABA
-          therapy) will make parenting easier.”
-        </p>
-      </div>
+          <h2 class="about-head-our-mission">Our Mission</h2>
+          <p class="about-head-our-mission-details">
+            “Transform the quality of life of children who have ASD to improve
+            their physical <br> and mental health with various digital behavioral
+            approaches that are clinically <br> designed by our team of autism
+            experts. The learning-through-play method <br> (digitalizing ABA
+            therapy) will make parenting easier.”
+          </p>
+        </div>
       </div>
       <div class="col-lg-2"></div>
 
@@ -104,17 +104,15 @@
 
 
 <!-- Testimonial-Section start -->
+
+
+<!-- Testimonial-Section start -->
 <section class="row_am testimonial_section">
   <!-- container start -->
   <div class="container">
-    <div
-      class="section_title"
-      data-aos="fade-up"
-      data-aos-duration="1500"
-      data-aos-delay="300"
-    >
+    <div class="section_title" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300">
       <!-- h2 -->
-      <h2>
+      <h2 style="text-align: left;">
         What <span style="background-color: #f6daff"> our users say </span>
       </h2>
       <!-- p -->
@@ -123,32 +121,45 @@
       <owl-carousel-o [options]="customOptions">
         <ng-container>
           <ng-template carouselSlide [id]="'user1'">
-            <div class="container">
+            <div class="container carousel-content ">
               <div class="row">
-                <div class="col-md-3"></div>
-                <div class="col-md-6 selfcenter"> <div class="item">
-                  <div class="testimonial_slide_box">
 
-                    <div class="testimonial_img">
-                      <img class="img-fluid" src="../../../assets/images/testimonial_user1.png" alt="image">
+                <div class="col-md-12 selfcenter">
+                  <div class="">
+
+                    <div class="row">
+                      <div class="col-md-2"></div>
+                      <div class="col-md-2 testimonial_profile_center">
+                        <div class="testimonial_profile_center">
+
+                          <img class="img-fluid testimonial_profile"
+                            src="../../assets/images/about/testimonial_user.svg" alt="image">
+
+                        </div>
+                      </div>
+                      <div class="col-md-6 content_testimonial">
+                        <h3 class="headtesti">John Garrett </h3>
+                        <p class="titleheadtesti">30.01.2023</p>
+                        <p class=" paratesti ">
+                          “ My son, Drake, has been using the Neo Rx app for therapy and really enjoys it. He's a little
+                          older, so he wants to concentrate on the more challenging aspects of the app, like puzzles.
+                          Many thanks to Impute for working on this! Keep up the hard work and we look forward to
+                          further iterations of this technology! Best regards, John Garrett ”
+                        </p>
+                        <div class="rating">
+                          <span><i class="icofont-star"></i></span>
+                          <span><i class="icofont-star"></i></span>
+                          <span><i class="icofont-star"></i></span>
+                          <span><i class="icofont-star"></i></span>
+                          <span><i class="icofont-star"></i></span>
+                        </div>
+                      </div>
+
                     </div>
-                    <h3 class="headtesti">Lucinda Davidson</h3>
-                    <p class="titleheadtesti">02.03.2023</p>
+
+
                   </div>
-                  <p class="review paratesti ">
-                    “ Lorem ipsum dolor sit amet consectetur. Proin libero sed vel purus nunc et eu ultrices massa. Mattis
-                    tortor diam adipiscing mollis habitasse mauris egestas venenatis. Dignissim scelerisque pharetra velit urna
-                    facilisis et. Maecenas donec at suspendisse tristique enim turpis. Cursus enim nunc consequat tincidunt
-                    dictumst viverra. Venenatis viverra in ante elit morbi sit ullamcorper hendrerit netus.. ”
-                  </p>
-                  <div class="rating">
-                    <span><i class="icofont-star"></i></span>
-                    <span><i class="icofont-star"></i></span>
-                    <span><i class="icofont-star"></i></span>
-                    <span><i class="icofont-star"></i></span>
-                    <span><i class="icofont-star"></i></span>
-                  </div>
-                </div></div>
+                </div>
 
 
               </div>
@@ -156,71 +167,99 @@
 
 
           </ng-template>
-          <ng-template carouselSlide [id]="'user2'">
-            <!-- user 2 -->
-            <div class="container ">
+          <ng-template carouselSlide [id]="'user1'">
+            <div class="container carousel-content ">
               <div class="row">
-                <div class="col-md-3"></div>
-                <div class="col-md-6 selfcenter"> <div class="item">
-                  <div class="testimonial_slide_box">
 
-                    <div class="testimonial_img">
-                      <img class="img-fluid " src="../../../assets/images/testimonial_user1.png" alt="image">
+                <div class="col-md-12 selfcenter">
+                  <div class="">
+
+                    <div class="row">
+                      <div class="col-md-2"></div>
+                      <div class="col-md-2 testimonial_profile_center">
+                        <div class="testimonial_profile_center">
+
+                          <img class="img-fluid testimonial_profile"
+                            src="../../assets/images/about/testimonial_user.svg" alt="image">
+
+                        </div>
+                      </div>
+                      <div class="col-md-6 content_testimonial">
+                        <h3 class="headtesti">John Garrett </h3>
+                        <p class="titleheadtesti">30.01.2023</p>
+                        <p class=" paratesti ">
+                          “ My son, Drake, has been using the Neo Rx app for therapy and really enjoys it. He's a little
+                          older, so he wants to concentrate on the more challenging aspects of the app, like puzzles.
+                          Many thanks to Impute for working on this! Keep up the hard work and we look forward to
+                          further iterations of this technology! Best regards, John Garrett ”
+                        </p>
+                        <div class="rating">
+                          <span><i class="icofont-star"></i></span>
+                          <span><i class="icofont-star"></i></span>
+                          <span><i class="icofont-star"></i></span>
+                          <span><i class="icofont-star"></i></span>
+                          <span><i class="icofont-star"></i></span>
+                        </div>
+                      </div>
+
                     </div>
-                    <h3 class="headtesti">Lucinda Davidson</h3>
-                    <p class="titleheadtesti">02.03.2023</p>
+
+
                   </div>
-                  <p class="review paratesti">
-                    “ Lorem ipsum dolor sit amet consectetur. Proin libero sed vel purus nunc et eu ultrices massa. Mattis
-                    tortor diam adipiscing mollis habitasse mauris egestas venenatis. Dignissim scelerisque pharetra velit urna
-                    facilisis et. Maecenas donec at suspendisse tristique enim turpis. Cursus enim nunc consequat tincidunt
-                    dictumst viverra. Venenatis viverra in ante elit morbi sit ullamcorper hendrerit netus.. ”
-                  </p>
-                  <div class="rating">
-                    <span><i class="icofont-star"></i></span>
-                    <span><i class="icofont-star"></i></span>
-                    <span><i class="icofont-star"></i></span>
-                    <span><i class="icofont-star"></i></span>
-                    <span><i class="icofont-star"></i></span>
-                  </div>
-                </div></div>
+                </div>
 
 
               </div>
             </div>
+
+
           </ng-template>
-          <ng-template carouselSlide [id]="'user3'">
-            <!-- user 3 -->
-            <div class="container">
+          <ng-template carouselSlide [id]="'user1'">
+            <div class="container carousel-content ">
               <div class="row">
-                <div class="col-md-3"></div>
-                <div class="col-md-6 selfcenter"> <div class="item">
-                  <div class="testimonial_slide_box">
 
-                    <div class="testimonial_img">
-                      <img class="img-fluid" src="../../../assets/images/testimonial_user1.png" alt="image">
+                <div class="col-md-12 selfcenter">
+                  <div class="">
+
+                    <div class="row">
+                      <div class="col-md-2"></div>
+                      <div class="col-md-2 testimonial_profile_center">
+                        <div class="testimonial_profile_center">
+
+                          <img class="img-fluid testimonial_profile"
+                            src="../../assets/images/about/testimonial_user.svg" alt="image">
+
+                        </div>
+                      </div>
+                      <div class="col-md-6 content_testimonial">
+                        <h3 class="headtesti">John Garrett </h3>
+                        <p class="titleheadtesti">30.01.2023</p>
+                        <p class=" paratesti ">
+                          “ My son, Drake, has been using the Neo Rx app for therapy and really enjoys it. He's a little
+                          older, so he wants to concentrate on the more challenging aspects of the app, like puzzles.
+                          Many thanks to Impute for working on this! Keep up the hard work and we look forward to
+                          further iterations of this technology! Best regards, John Garrett ”
+                        </p>
+                        <div class="rating">
+                          <span><i class="icofont-star"></i></span>
+                          <span><i class="icofont-star"></i></span>
+                          <span><i class="icofont-star"></i></span>
+                          <span><i class="icofont-star"></i></span>
+                          <span><i class="icofont-star"></i></span>
+                        </div>
+                      </div>
+
                     </div>
-                    <h3 class="headtesti">Lucinda Davidson</h3>
-                    <p class="titleheadtesti" >02.03.2023</p>
+
+
                   </div>
-                  <p class="review paratesti ">
-                    “ Lorem ipsum dolor sit amet consectetur. Proin libero sed vel purus nunc et eu ultrices massa. Mattis
-                    tortor diam adipiscing mollis habitasse mauris egestas venenatis. Dignissim scelerisque pharetra velit urna
-                    facilisis et. Maecenas donec at suspendisse tristique enim turpis. Cursus enim nunc consequat tincidunt
-                    dictumst viverra. Venenatis viverra in ante elit morbi sit ullamcorper hendrerit netus.. ”
-                  </p>
-                  <div class="rating">
-                    <span><i class="icofont-star"></i></span>
-                    <span><i class="icofont-star"></i></span>
-                    <span><i class="icofont-star"></i></span>
-                    <span><i class="icofont-star"></i></span>
-                    <span><i class="icofont-star"></i></span>
-                  </div>
-                </div></div>
+                </div>
 
 
               </div>
             </div>
+
+
           </ng-template>
         </ng-container>
       </owl-carousel-o>
@@ -228,6 +267,7 @@
   </div>
   <!-- container end -->
 </section>
+<!-- Testimonial-Section end -->
 <!-- Testimonial-Section end -->
 
 
@@ -251,10 +291,7 @@
             <!-- <td><span class="dot"></span><div class="vl"></div></td> -->
             <td class="about-sec1-detail-border">
               <span class="dot"></span>
-              <div
-                class="step_text"
-
-              >
+              <div class="step_text">
                 <span class="about-sect1-title">FEASIBILITY STUDY (RCT) - JAPAN</span>
                 <p class="about-sect1-title-para">
                   A 14-day trial with 10 children in NCCHD Japan to test
@@ -269,10 +306,7 @@
             <!-- <td><span class="dot"></span><div class="vl"></div></td> -->
             <td class="about-sec1-detail-border">
               <span class="dot"></span>
-              <div
-                class="step_text"
-
-              >
+              <div class="step_text">
                 <span class="about-sect1-title">Pilot STUDY (RCT) - INDIA</span>
                 <p class="about-sect1-title-para">
                   A 6-month trial with 120 children. Expected result of improved ADOS scores at AAIMS India
@@ -285,10 +319,7 @@
             <!-- <td><span class="dot"></span><div class="vl"></div></td> -->
             <td class="about-sec1-detail-border">
               <span class="dot"></span>
-              <div
-                class="step_text"
-
-              >
+              <div class="step_text">
                 <span class="about-sect1-title">Pilot STUDY (RCT) - JAPAN</span>
                 <p class="about-sect1-title-para">
                   A 6-month trial with 120 children. Expected result of improved ADOS scores at NCCHD Japan
@@ -301,10 +332,7 @@
             <!-- <td><span class="dot"></span><div class="vl"></div></td> -->
             <td class="about-sec1-detail-border">
               <span class="dot"></span>
-              <div
-                class="step_text"
-
-              >
+              <div class="step_text">
                 <span class="about-sect1-title">SAND APPLICATION</span>
                 <p class="about-sect1-title-para">
                   Final application to PMDA fpr approval of software as a medical device. Approval time 8-12 months.
@@ -317,10 +345,7 @@
             <!-- <td><span class="dot"></span><div class="vl"></div></td> -->
             <td class="about-sec1-detail-border">
               <span class="dot"></span>
-              <div
-                class="step_text"
-
-              >
+              <div class="step_text">
                 <span class="about-sect1-title">INSURANCE APPLICATION</span>
                 <p class="about-sect1-title-para">
                   Application for inclusion in Insurance

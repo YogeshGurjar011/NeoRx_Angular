@@ -4,7 +4,9 @@
   border-radius: 10px;
 }
 .about-section1 {
-  margin-top: 20%;
+  margin-top: 11%;
+
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(158.12deg, #7A21BD 13.4%, #5956E9 65.2%, #7976FC 85.65%);
 }
 .about-section1-head {
   color: white;
@@ -66,7 +68,7 @@ th {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left;
-  border-radius: 10px;
+
 }
 
 .about-sect1-title-para {
@@ -99,12 +101,14 @@ th {
     color: #28085b;
     font-weight: 700;
 font-size: 40px;
+
   }
   .about-head-our-mission-details {
     margin-bottom: 18%;
     color: #28085b;
     font-style: normal;
 font-weight: 400;
+width: max-content;
 /* font-size: 24px; */
   }
   .bg-our-mission-about {
@@ -171,3 +175,56 @@ font-weight: 400;
   }
 
 }
+
+
+
+
+
+
+.testimonial_profile_center{
+  text-align: -webkit-center;
+  align-self: center;
+}
+@media only screen and (min-width: 100px) and  (max-width: 991px){
+
+  .testimonial_profile{
+    height: 100px;
+      }
+  .titleheadtesti{
+  line-height: 20px;
+
+
+}
+.paratesti{
+
+  line-height: 20px;
+
+}
+.headtesti{
+  line-height: 23px;
+
+}
+.carousel-content{
+margin-top: 15%;
+}
+}
+@media only screen and (min-width: 992px) and  (max-width: 6000px){
+  .carousel-content{
+    margin-top: 10%;
+  }
+  }
+
+@media only screen and (min-width: 100px) and  (max-width: 435px){
+
+  .testimonial_profile{
+height: 50px;
+  }
+  .headtesti{
+    font-size: 15px;
+    line-height: 10px;
+    margin-top: 1%;
+  }
+
+  }
+
+

@@ -47,7 +47,7 @@
       width: 150px;
     }
   }
-  
+
   @-webkit-keyframes rotated {
     0% {
       -webkit-transform: rotate(0);
@@ -85,7 +85,7 @@
     /* padding-bottom: 180px; */
     padding-bottom: 40px;
   }
-  
+
   .powerful-image .image {
     -webkit-transform: rotate(-15deg);
     -moz-transform: rotate(-15deg);
@@ -113,7 +113,7 @@
       margin-left: 0;
     }
   }
-  
+
   @-webkit-keyframes ImgBounce2 {
     0% {
       -webkit-transform: translateY(0) rotate(-15deg);
@@ -209,7 +209,7 @@
       padding: 0 30px;
     }
   }
-  
+
   /*===========================
     05.Powerful Tools css  ENd
 ===========================*/
@@ -222,7 +222,7 @@
     /* margin: 20px 0; */
     padding: 44px 0;
 
-    
+
 }
 
 .bg_color_set{
@@ -230,8 +230,8 @@
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     padding: 20px ;
-    margin-top: 20px; 
-   
+    margin-top: 20px;
+
     /* margin-left: 10px; */
 }
 .bg_color_set h6{
@@ -282,7 +282,7 @@ text-transform: uppercase;
   .discover-area .discover-shape.shape-1 img {
     width: 100%;
   }
-  
+
   .discover-content-wrapper .discover-items {
     max-width: 570px;
   }
@@ -353,7 +353,7 @@ text-transform: uppercase;
       padding: 0 30px;
     }
   }
-  
+
   .discover-image {
     position: absolute;
     top: 0;
@@ -410,7 +410,7 @@ text-transform: uppercase;
     height: auto;
     display: flex;
   }
-  
+
   /*===========================
   Discover css   End
 ===========================*/
@@ -493,7 +493,7 @@ text-transform: uppercase;
       height: 388px;
     }
   }
-  
+
   .everything-image .image {
     position: relative;
     -webkit-animation: ImgBounce3 2s ease-in-out infinite alternate;
@@ -509,7 +509,7 @@ text-transform: uppercase;
   .everything-image .image img {
     width: 100%;
   }
-  
+
   @-webkit-keyframes ImgBounce3 {
     0% {
       -webkit-transform: translateY(0);
@@ -632,11 +632,11 @@ text-transform: uppercase;
       padding: 0 30px;
     }
   }
-  
+
   /*===========================
     07.Everything css  End
 ===========================*/
-  
+
 
 
 
@@ -651,15 +651,15 @@ text-transform: uppercase;
 .site-amazing-features {
     background-size: cover;
     padding-bottom: 0;
-  
+
   }
-  
+
   @media screen and (max-width: 767px) {
     .site-amazing-features {
       background: none;
     }
   }
-  
+
   .site-amazing-features .features {
     /* Features */
     max-width: 19.75rem;
@@ -670,48 +670,48 @@ text-transform: uppercase;
     z-index: 10;
     padding:30px;
   }
-  
+
   .site-amazing-features .features:hover {
     /* Features mouse hover */
     padding:30px;
     transition:all ease .5s;
     border-radius:12px;
-    
+
     -webkit-box-shadow: -1px 10px 33px -5px rgba(24,30,110,0.31);
   -moz-box-shadow: -1px 10px 33px -5px rgba(24,30,110,0.31);
   box-shadow: -1px 10px 33px -5px rgba(24,30,110,0.31);
   }
-  
+
   .site-amazing-features .features:hover h5 {
     color: #3453bf;
   }
-  
+
   .site-amazing-features .features:hover figure {
     /*border-color: #2b8dd9;
     box-shadow: 0 0 0.938rem rgba(2, 3, 3, 0.19);*/
   }
-  
+
   .site-amazing-features .features:hover figure:before {
     /*background: #2b8dd9;*/
   }
-  
+
   .site-amazing-features .features:hover span, .site-amazing-features .features:hover i.fa {
     color: white;
   }
-  
+
   .site-amazing-features .features.move {
     /* Move Class */
     /*top: 5.625rem;*/
-    
+
   }
-  
-  
+
+
   @media screen and (max-width: 767px) {
     .site-amazing-features .features.move {
       top: 0;
     }
   }
-  
+
   .site-amazing-features .features figure {
     /* Image */
     width: 100%;
@@ -725,7 +725,7 @@ text-transform: uppercase;
     z-index: 1;
     box-shadow: none;
   }
-  
+
   .site-amazing-features .features figure:before {
     content: "";
     position: absolute;
@@ -743,7 +743,7 @@ text-transform: uppercase;
     transition: 300ms linear;
     transition-property: background;
   }
-  
+
   .site-amazing-features span, .site-amazing-features i.fa {
     /* Icons */
     display: inline-block;
@@ -753,7 +753,7 @@ text-transform: uppercase;
     transition: 300ms linear;
     transition-property: color;
   }
-  
+
   .site-amazing-features h5 {
     /* Heading */
     color: #59687c;
@@ -769,7 +769,7 @@ text-transform: uppercase;
     transition: 300ms linear;
     transition-property: color;
   }
-  
+
   .site-amazing-features p {
     /* Paragraph */
     color: #708198;
@@ -783,7 +783,7 @@ text-transform: uppercase;
     clear: both;
     width: 100%;
   }
-  
+
   .site-amazing-features .device {
     /* Device holder */
     margin-top: 1rem;
@@ -791,4 +791,3 @@ text-transform: uppercase;
   /*site amazing features end  */
 
 
-  

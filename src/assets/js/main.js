@@ -58,25 +58,25 @@ $('#company_slider').owlCarousel({
 })
 
 
-$('#testimonial_slider').owlCarousel({
-    loop:true,
-    margin:10,
-    nav:false,
-    autoplay: true,
-    smartSpeed: 2500,
-    dots: true,
-    responsive:{
-        0:{
-            items:1
-        },
-        600:{
-            items:1
-        },
-        1000:{
-            items:1
-        }
-    }
-})
+// $('#testimonial_slider').owlCarousel({
+//     loop:true,
+//     margin:10,
+//     nav:false,
+//     autoplay: true,
+//     smartSpeed: 2500,
+//     dots: true,
+//     responsive:{
+//         0:{
+//             items:1
+//         },
+//         600:{
+//             items:1
+//         },
+//         1000:{
+//             items:1
+//         }
+//     }
+// })
 
 
 $('#screen_slider').owlCarousel({

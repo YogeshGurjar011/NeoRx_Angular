@@ -70,7 +70,7 @@
 .about_app_section1 .about_text1 .app_statstic1 li {
   height: 140px;
 
-  width: 248px;
+  width: 100%;
   background-color: var(--bg-white);
   margin-bottom: 30px;
   display: flex;
@@ -103,3 +103,41 @@
 background: linear-gradient(180deg, #B5C4FF 0%, #F6DAFF 44.58%, #FFEAD2 100%);
 }
 
+
+
+
+
+
+
+
+
+
+
+
+/* / Features of Neo Rx start / */
+
+.main_section_featur{
+    background: linear-gradient(180deg, #B5C4FF 0%, #F6DAFF 44.58%, #FFEAD2 100%);
+    /* / margin: 20px 0; / */
+    padding: 44px 0;
+
+
+}
+
+.bg_color_set{
+    background: #FFFFFF;
+    /* box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1); */
+    border-radius: 10px;
+    padding: 20px ;
+    margin-top: 20px;
+
+    /* / margin-left: 10px; / */
+}
+.bg_color_set h6{
+  text-align: initial;
+text-transform: uppercase;
+}
+.bg_color_set img{
+    padding-right: 10px;
+}
+/* / Features of Neo Rx  ENd / */

@@ -10,7 +10,7 @@
   height: auto;
   display: flex;
   justify-content: center;
- 
+
 }
 
 .query_inner {
@@ -24,7 +24,7 @@
   align-items:  center;
 }
 
-.query_inner .section_title h2 , 
+.query_inner .section_title h2 ,
 .query_inner .section_title p {
   color: rgb(10, 10, 10);
 }
@@ -150,11 +150,12 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
 }
 
 .faq_section .faq_panel {
   margin-top: 40px;
- 
+
 }
 
 /* faq box */
